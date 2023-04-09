@@ -1,0 +1,80 @@
+
+.NavbarItems {
+    display: flex; 
+    flex-direction: column; 
+    height: 40vh; 
+    background: #0042a0;
+    color: white; 
+    
+}
+
+.topNavBar,.bottomNavBar{
+    display:flex; 
+    justify-content: space-between;
+    margin-left:30vh;
+    margin-right:30vh;  
+}
+
+
+
+.nav-menu {
+    display: grid; 
+    grid-template-columns: repeat(6, 10rem);
+    grid-gap: 10px; 
+    list-style:none;
+    align-items: center; 
+}
+
+.nav-links{
+    text-decoration: none; 
+    color: white; 
+    font-size: 0.9rem; 
+    padding: 1rem 2rem; 
+    white-space: nowrap
+}
+
+.nav-links:hover{
+    background-color:rgba(82, 153, 255,0.2);
+    color: white; 
+    border-radius:30px; 
+}
+
+.navbar-logo{
+    cursor: pointer; 
+}
+
+.navBarButtons {
+    margin-top:25px; 
+    color: #0042a0; 
+}
+
+.navBarText{
+    color: white; 
+    margin-left:30vh;
+    margin-right:30vh;  
+
+}
+
+.navBarText h2{
+    font-size: 3rem; 
+
+}
+
+.navBarText p{
+    font-size: 1.5rem; 
+
+}
+
+button {
+    padding: 0.5rem 0.8rem;
+    white-space: nowrap; 
+    border-radius: 0.3rem; 
+    font-size: 1rem; 
+    font-weight: 200; 
+    border: 1px solid #5299ff; 
+    color: #5299ff;
+    cursor: pointer; 
+    margin:-1rem 0.4rem 2rem 0; 
+    background: white;
+}
+

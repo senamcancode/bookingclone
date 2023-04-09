@@ -1,0 +1,81 @@
+
+.listyourproperty {
+    background: #0042a0;
+    margin-bottom:0; 
+    height:7vh; 
+    border-bottom:2px solid white;  
+    color: white; 
+    display:flex; 
+    align-items: center;
+}
+
+.listyourproperty p {
+  margin:auto; 
+  border:1px solid white; 
+  padding:0.3rem 0.8rem 0.3rem 0.8rem; 
+  border-radius:3px;
+}
+
+.listyourproperty p:hover{
+    background-color:rgba(82, 153, 255,0.2);
+    cursor: pointer;
+}
+
+.footerlinks {
+    display:flex; 
+    flex:nowrap; 
+    background:#0042a0; 
+    color: white; 
+    height:5vh; 
+} 
+
+
+
+.customerlinks{
+    display: grid; 
+    grid-template-columns: repeat(5, 15rem);
+    grid-gap: 10px; 
+    list-style:none;
+    align-items: center; 
+    margin:auto; 
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+.footercontainerbottom{
+    margin-left:30vh;
+    margin-right:30vh;
+    display:flex; 
+    flex-direction: column;
+}
+
+.copyrightinfo, .affiliatecompanies{
+    font-size: small;
+}
+
+.extranetlogin{
+    color:#009fe3; 
+    font-weight:bold; 
+    margin-left:55vh; 
+    margin-right:55vh; 
+    margin-bottom:0; 
+}
+
+.extranetlogin:hover{
+    color:#feba02; 
+    cursor: pointer;
+}
+
+.affiliatecompanies{
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+}
+
+.affimages{
+    max-width:75vh; 
+    margin-left:25vh; 
+    margin-right:25vh; 
+}

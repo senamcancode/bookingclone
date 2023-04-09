@@ -1,0 +1,9 @@
+.carousel-container{
+    margin-left:30vh;
+    margin-right:30vh; 
+    min-height: 70vh; 
+}
+
+.maintext h3{
+    font-size: 2rem; 
+}
