@@ -1,6 +1,6 @@
 import { Component } from "react";
-import "./NavbarStyles.css";
-import { MenuItems } from "./MenuItems"; 
+import "./NavbarStyles.css"; 
+import NavBarButton from "./NavBarButtons";
 
 
 
@@ -11,27 +11,20 @@ class Navbar extends Component{
             <div className="topNavBar">
                 <h1 className="navbar-logo">Looking.com</h1>
                 <div className="navBarButtons">
-                    <button>Register</button>
-                    <button>Sign In</button> 
+                    <NavBarButton buttonText="Register" />
+                    <NavBarButton buttonText="Sign In" />
 {/* we want to find a way to make a button component so that we can re-use it */}
 
                 </div>
             </div>
-
-            {/* <div className="menu-icons">
-                    <i className ="fas fa-bars"></i>
-                    <i className ="fas fa-times"></i>
-            </div> refer to 51:23 of react website tutorial - beginner react JS responsive tour/travel project*/}
-            
             <div className="bottomNavBar">
-            <ul className="nav-menu">
-                {MenuItems.map((item, index) => {
-                    return (
-                    <li key={index}>
-                        <a className ={item.cName} href="/"><i className ={item.icon}></i>{item.title}</a> 
-                    </li>
-                    );
-                })}
+            <ul className="nav-menu">   
+                    <li className ="nav-links">Stays</li>
+                    <li className ="nav-links">Flights</li>
+                    <li className ="nav-links">Flight + Hotel</li>
+                    <li className ="nav-links">Car rentals</li>
+                    <li className ="nav-links">Attractions</li>
+                    <li className ="nav-links">Airport taxis</li>
             </ul>
             </div>
             <div className="navBarText">
@@ -44,3 +37,6 @@ class Navbar extends Component{
 }
 
 export default Navbar; 
+
+
+

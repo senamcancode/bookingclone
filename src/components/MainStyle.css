@@ -1,9 +1,68 @@
-.carousel-container{
+.image-container{
     margin-left:30vh;
     margin-right:30vh; 
     min-height: 70vh; 
 }
 
+.image-container h2{
+    margin-left:1rem; 
+    color: white; 
+}
+
 .maintext h3{
-    font-size: 2rem; 
+    font-size: 1.5rem; 
+}
+
+.top__image__container{
+ display: grid; 
+ grid: 30vh / auto auto;
+ grid-gap: 2vh; 
+ margin-bottom:3vh; 
+}
+
+.top__firstImage,.top__secondImage, .bottom__firstImage, .bottom__secondImage, .bottom__thirdImage{
+    /* border: 1px solid red;  */
+    height: 100%; 
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius:10px; 
+}
+
+.top__firstImage{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg/2560px-Colosseum_in_Rome%2C_Italy_-_April_2007.jpg')
+}
+
+.top__secondImage{ 
+    background-image: url('https://media.istockphoto.com/id/493223692/photo/milan-cathedral-italy.jpg?s=612x612&w=0&k=20&c=35HLzOeor-vAWdcv5SvpBcnRECAmpzjeqh28uUzk-to=');
+}
+
+
+.bottom__image__container{
+    display: grid; 
+    grid: 30vh / auto auto auto;
+    grid-gap: 2vh; 
+    /* border: 1px solid purple;  */
+    margin-bottom:2rem; 
+}
+
+
+.bottom__firstImage {
+    background-image: url('https://cdn.contexttravel.com/image/upload/w_1500,q_60/v1661527362/blog/12%20Things%20to%20do%20in%20Naples/naples_hero.jpg')
+}
+
+
+.bottom__secondImage{
+    background-image: url('https://media.timeout.com/images/105879414/750/422/image.jpg')
+}
+
+.bottom__thirdImage{
+    background-image: url('https://keyassets.timeincuk.net/inspirewp/live/wp-content/uploads/sites/34/2018/07/Bologna-restaurants-920x609.gif')
+}
+
+
+.top__firstImage:hover,.top__secondImage:hover, .bottom__firstImage:hover, .bottom__secondImage:hover, .bottom__thirdImage:hover{
+    cursor:pointer; 
+    border:1px solid #feba02; 
+    box-shadow: 0 0 3px 3px rgba(	99.6, 72.9, 0.8, 0.5);
 }
