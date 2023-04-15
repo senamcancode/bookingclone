@@ -69,16 +69,5 @@
 
 }
 
-button {
-    padding: 0.5rem 0.8rem;
-    white-space: nowrap; 
-    border-radius: 0.3rem; 
-    font-size: 1rem; 
-    font-weight: 200; 
-    border: 1px solid #5299ff; 
-    color: #5299ff;
-    cursor: pointer; 
-    margin:-1rem 0.4rem 2rem 0; 
-    background: white;
-}
+
 

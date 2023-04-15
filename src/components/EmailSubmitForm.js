@@ -1,4 +1,5 @@
 import { Component } from "react";
+import CustomButton from "./CustomButton";
 import "./EmailSubmitForm.css";
 
 class EmailSubmitForm extends Component{
@@ -16,6 +17,7 @@ class EmailSubmitForm extends Component{
                    <button type="submit" id="subscribe__button">
                        Subscribe
                    </button>
+                   {/* <CustomButton buttonText="Subscribe" id="subscribe__button"/> */}
                 </div>
             </div>
         )}

@@ -1,6 +1,6 @@
 import { Component } from "react";
 import "./NavbarStyles.css"; 
-import NavBarButton from "./NavBarButtons";
+import CustomButton from "./CustomButton";
 
 
 
@@ -11,8 +11,8 @@ class Navbar extends Component{
             <div className="topNavBar">
                 <h1 className="navbar-logo">Looking.com</h1>
                 <div className="navBarButtons">
-                    <NavBarButton buttonText="Register" />
-                    <NavBarButton buttonText="Sign In" />
+                    <CustomButton buttonText="Register" />
+                    <CustomButton buttonText="Sign In" />
 {/* we want to find a way to make a button component so that we can re-use it */}
 
                 </div>

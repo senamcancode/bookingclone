@@ -1,6 +1,5 @@
 import { Component } from "react"; 
-import OffersButton from "./OffersButtons";
-import CartoonPlane from "./images/cartoonplane.jpeg";
+import CustomButton from "./CustomButton";
 import "./OffersStyle.css";
 
 class Offers extends Component{
@@ -15,12 +14,12 @@ class Offers extends Component{
                     <div className="searchflights">
                             <h3>Fly away to your dream holiday</h3>
                             <p className="flightandescapetext">Get inspired, compare and book flights with more flexibility</p>
-                            <OffersButton buttonText={"Search for flights"} />
+                            <CustomButton buttonText={"Search for flights"} />
                     </div>
                     <div className="escape">
                         <h3>Escape for a while</h3>
                         <p className="flightandescapetext">Enjoy the freedom of a monthly stay on Booking.com</p>
-                        <OffersButton buttonText={"Discover monthly stays"} />
+                        <CustomButton buttonText={"Discover monthly stays"} />
                     </div>
                 </div>
             </div>

@@ -1,4 +1,4 @@
-import "./NavbarStyles.css";
+import "./CustomButton.css";
 
 
 const NavBarButton = ({buttonText}) => {
