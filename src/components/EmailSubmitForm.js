@@ -1,7 +1,7 @@
 import { Component } from "react";
-import "./EmailSubmit.css";
+import "./EmailSubmitForm.css";
 
-class EmailSubmit extends Component{
+class EmailSubmitForm extends Component{
     render(){
         return(
             <div className="emailsignup__container">
@@ -21,6 +21,6 @@ class EmailSubmit extends Component{
         )}
 }
 
-export default EmailSubmit; 
+export default EmailSubmitForm; 
 
 

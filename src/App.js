@@ -4,7 +4,7 @@ import Offers from "./components/Offers";
 import Accordion from "./components/Accordion"
 import Main from "./components/Main"; 
 import PropertyTypeCarousel from "./components/PropertyTypeCarousel";
-import EmailSubmit from './components/EmailSubmit';
+import EmailSubmitForm from './components/EmailSubmitForm';
 import Footer from "./components/Footer";
 
 
@@ -17,7 +17,7 @@ function App() {
         <Offers />
         <Main />
         <PropertyTypeCarousel />
-        <EmailSubmit />
+        <EmailSubmitForm />
         <Footer />
     </div>
   );
