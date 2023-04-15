@@ -55,12 +55,15 @@
     font-size: small;
 }
 
+
 .extranetlogin{
     color:#009fe3; 
     font-weight:bold; 
     margin-left:55vh; 
     margin-right:55vh; 
-    margin-bottom:0; 
+    margin-bottom:0;
+    min-width:10rem; 
+     
 }
 
 .extranetlogin:hover{

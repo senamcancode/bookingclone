@@ -37,11 +37,9 @@
     background-color:rgba(82, 153, 255,0.2);
     color: white; 
     border-radius:30px; 
-}
-
-.navbar-logo{
     cursor: pointer; 
 }
+
 
 .navBarButtons {
     margin-top:25px; 

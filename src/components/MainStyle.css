@@ -26,7 +26,7 @@
     background-position: center; 
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius:10px; 
+    /* border-radius:10px;  */
 }
 
 .top__firstImage{
@@ -64,5 +64,5 @@
 .top__firstImage:hover,.top__secondImage:hover, .bottom__firstImage:hover, .bottom__secondImage:hover, .bottom__thirdImage:hover{
     cursor:pointer; 
     border:1px solid #feba02; 
-    box-shadow: 0 0 3px 3px rgba(	99.6, 72.9, 0.8, 0.5);
+    box-shadow: 0 0 3px 3px rgba(215, 178, 75, 0.5);
 }

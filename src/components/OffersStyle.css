@@ -1,0 +1,45 @@
+.offers {
+    margin-left:30vh;
+    margin-right:30vh; 
+    max-height: 32vh; 
+    max-width: 111vh; 
+}
+
+.flightandescape{
+    display: grid; 
+    grid: 30vh / auto auto;
+    grid-gap: 5vh; 
+}
+
+.searchflights, .escape{
+    width: 100%; 
+    height: 20vh; 
+    display:flex; 
+    flex-direction:column; 
+    align-items: flex-start;
+    justify-content: space-around;
+    padding:1rem; 
+    
+
+
+}
+
+.searchflights{
+    border:1px solid red; 
+}
+
+
+.escape{
+    border:1px solid blue; 
+    width: 100%; 
+    background-image:url(https://q-xx.bstatic.com/xdata/images/xphoto/714x300/184699273.jpeg?k=503e088a7d417c30217b5109dda404d2c2050001588cf7a45fca63e3363573de&o=);
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white; 
+}
+
+
+button {
+    color: #0042a0;
+}

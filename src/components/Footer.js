@@ -23,7 +23,7 @@ class Footer extends Component{
                 <div className="footercontainerbottom">
                     <div className="copyrightinfo">
                         <p className="extranetlogin">Extranet Log-in</p>
-                        <p>Copyright<span dangerouslySetInnerHTML={{ "__html": "&copy;" }} />
+                        <p className="copyright">Copyright<span dangerouslySetInnerHTML={{ "__html": "&copy;" }} />
                         1996-2023 Looking.com<span dangerouslySetInnerHTML={{ "__html": "&trade;" }} />. All rights reserved. </p>
                     </div>
                     <div className="affiliatecompanies">

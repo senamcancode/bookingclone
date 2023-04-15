@@ -1,0 +1,32 @@
+.wrapper{
+    margin-left:30vh;
+    margin-right:30vh; 
+    border: 1px solid lightgrey; 
+    border-radius:5px; 
+    margin-top: 1rem; 
+}
+
+
+.title {
+    display: flex; 
+    justify-content: space-between;
+    cursor:pointer; 
+}
+
+
+.title, .content {
+    margin:0.5rem 1rem 0.5rem 1rem;
+}
+
+a {
+    color:#5299ff; 
+}
+
+span img{
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem; 
+    transform: rotate(180deg);
+    height: 20px; 
+    width: 20px; 
+}

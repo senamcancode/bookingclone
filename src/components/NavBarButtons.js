@@ -7,4 +7,4 @@ const NavBarButton = ({buttonText}) => {
     )
 }
 
-export default NavBarButton 
+export default NavBarButton; 
