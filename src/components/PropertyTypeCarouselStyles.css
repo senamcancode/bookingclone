@@ -1,0 +1,30 @@
+.property__container{
+    margin-left:30vh;
+    margin-right:30vh;  
+}
+
+.carousel__wrapper{
+    display: flex; 
+    align-items: center;
+}
+
+.carousel{
+    display: grid; 
+    grid: 30vh / auto auto auto auto;
+    grid-gap: 2vh; 
+    margin-bottom: 2rem; 
+}
+
+.carousel__wrapper img{
+    cursor:pointer; 
+}
+
+.carousel__wrapper p{
+    color:gray; 
+}
+
+.carouselbkbuttonimg{
+    width:1.5rem; 
+    height:1.5rem; 
+    transform: rotate(180deg);
+}

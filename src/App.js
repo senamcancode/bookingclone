@@ -1,10 +1,11 @@
 import './App.css';
 import Navbar from "./components/Navbar";
 import Offers from "./components/Offers";
-import CovidAccordion from "./components/CovidAccordion"
+import Accordion from "./components/Accordion"
 import Main from "./components/Main"; 
+import PropertyTypeCarousel from "./components/PropertyTypeCarousel";
+import EmailSubmit from './components/EmailSubmit';
 import Footer from "./components/Footer";
-import PropertyType from "./components/PropertyType"; 
 
 
 
@@ -12,10 +13,11 @@ function App() {
   return (
     <div className="app">
         <Navbar />
-        <CovidAccordion />
+        <Accordion />
         <Offers />
         <Main />
-        <PropertyType />
+        <PropertyTypeCarousel />
+        <EmailSubmit />
         <Footer />
     </div>
   );

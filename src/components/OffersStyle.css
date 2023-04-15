@@ -5,6 +5,10 @@
     max-width: 111vh; 
 }
 
+#offerstxt{
+    color:grey; 
+}
+
 .flightandescape{
     display: grid; 
     grid: 30vh / auto auto;
@@ -19,18 +23,16 @@
     align-items: flex-start;
     justify-content: space-around;
     padding:1rem; 
-    
-
-
 }
 
 .searchflights{
-    border:1px solid red; 
+    box-shadow: 0 0 2px 2px rgba(138, 137, 137, 0.511);
+    /* border:1px solid red;  */
 }
 
 
 .escape{
-    border:1px solid blue; 
+    /* border:1px solid blue;  */
     width: 100%; 
     background-image:url(https://q-xx.bstatic.com/xdata/images/xphoto/714x300/184699273.jpeg?k=503e088a7d417c30217b5109dda404d2c2050001588cf7a45fca63e3363573de&o=);
     background-position: center; 
@@ -43,3 +45,4 @@
 button {
     color: #0042a0;
 }
+

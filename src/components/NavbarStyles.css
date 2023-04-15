@@ -4,6 +4,12 @@
     flex-direction: column; 
     height: 40vh; 
     background: #0042a0;
+    /* background-image: url(https://r-xx.bstatic.com/xdata/images/xphoto/2880x1116/208091804.jpg?k=94914d07b33a5650107203923da2a2c0343e87e4719d6370ffec26b1d04d2ade&o=);
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left:30vh;
+    margin-right:30vh;   */
     color: white; 
     
 }
