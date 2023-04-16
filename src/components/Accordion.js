@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from "react"; 
-// import chevron from "./images/chevron.png"
+import chevronDown from "./images/chevrondown.png"
+import chevronUp from "./images/chevronup.png"
 import "./AccordionStyle.css"
 
 
@@ -10,7 +11,7 @@ function Accordion () {
     const toggleActive = () => {
         setIsActive(!isActive)
     }
-
+    
   return (
     <div className ="wrapper">
         <div className = "accordion">
@@ -18,7 +19,7 @@ function Accordion () {
                 <h3>Coronavirus - COVID-19 support</h3>
                 <div>
                     {
-                        isActive ? '-':'+'
+                        isActive ? '-':'+' 
                     }
                 </div>
             </div>
@@ -37,3 +38,4 @@ function Accordion () {
 };
 
 export default Accordion
+

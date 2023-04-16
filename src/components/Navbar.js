@@ -13,8 +13,6 @@ class Navbar extends Component{
                 <div className="navBarButtons">
                     <CustomButton buttonText="Register" />
                     <CustomButton buttonText="Sign In" />
-{/* we want to find a way to make a button component so that we can re-use it */}
-
                 </div>
             </div>
             <div className="bottomNavBar">
