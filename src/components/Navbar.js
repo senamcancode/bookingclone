@@ -1,8 +1,12 @@
 import { Component } from "react";
 import "./NavbarStyles.css"; 
 import CustomButton from "./CustomButton";
-
-
+import {FaHome} from 'react-icons/fa'
+import {FaPlaneDeparture} from 'react-icons/fa'
+import {MdTravelExplore} from 'react-icons/md'
+import {AiOutlineCar} from 'react-icons/ai'
+import {MdOutlineAttractions} from 'react-icons/md'
+import {MdOutlineTaxiAlert} from 'react-icons/md'
 
 class Navbar extends Component{
     render(){
@@ -17,12 +21,12 @@ class Navbar extends Component{
             </div>
             <div className="bottomNavBar">
             <ul className="nav-menu">   
-                    <li className ="nav-links">Stays</li>
-                    <li className ="nav-links">Flights</li>
-                    <li className ="nav-links">Flight + Hotel</li>
-                    <li className ="nav-links">Car rentals</li>
-                    <li className ="nav-links">Attractions</li>
-                    <li className ="nav-links">Airport taxis</li>
+                    <li className ="nav-links"><FaHome /> Stays</li>
+                    <li className ="nav-links"><FaPlaneDeparture /> Flights</li>
+                    <li className ="nav-links"><MdTravelExplore /> Flight + Hotel</li>
+                    <li className ="nav-links"><AiOutlineCar /> Car rentals</li>
+                    <li className ="nav-links"><MdOutlineAttractions /> Attractions</li>
+                    <li className ="nav-links"><MdOutlineTaxiAlert /> Airport taxis</li>
             </ul>
             </div>
             <div className="navBarText">

@@ -17,7 +17,7 @@ class Footer extends Component{
                         <li>Manage your bookings</li>
                         <li>Customer Service Help</li>
                         <li>Become an affiliate</li>
-                        <li>Booking.com for Business</li>
+                        <li>Looking.com for Business</li>
                     </ul>
                 </div>
                 <div className="footercontainerbottom">
