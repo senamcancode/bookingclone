@@ -1,8 +1,8 @@
 import { Component } from "react";
 import "./NavbarStyles.css"; 
 import CustomButton from "./CustomButton";
-import {FaHome} from 'react-icons/fa'
-import {FaPlaneDeparture} from 'react-icons/fa'
+import {AiOutlineHome} from 'react-icons/ai'
+import {TbPlaneInflight} from 'react-icons/tb'
 import {MdTravelExplore} from 'react-icons/md'
 import {AiOutlineCar} from 'react-icons/ai'
 import {MdOutlineAttractions} from 'react-icons/md'
@@ -21,8 +21,8 @@ class Navbar extends Component{
             </div>
             <div className="bottomNavBar">
             <ul className="nav-menu">   
-                    <li className ="nav-links"><FaHome /> Stays</li>
-                    <li className ="nav-links"><FaPlaneDeparture /> Flights</li>
+                    <li className ="nav-links"><AiOutlineHome /> Stays</li>
+                    <li className ="nav-links"><TbPlaneInflight /> Flights</li>
                     <li className ="nav-links"><MdTravelExplore /> Flight + Hotel</li>
                     <li className ="nav-links"><AiOutlineCar /> Car rentals</li>
                     <li className ="nav-links"><MdOutlineAttractions /> Attractions</li>
