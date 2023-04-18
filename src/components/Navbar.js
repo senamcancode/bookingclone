@@ -8,6 +8,7 @@ import {AiOutlineCar} from 'react-icons/ai'
 import {MdOutlineAttractions} from 'react-icons/md'
 import {MdOutlineTaxiAlert} from 'react-icons/md'
 
+
 class Navbar extends Component{
     render(){
     return(
@@ -23,7 +24,7 @@ class Navbar extends Component{
             <ul className="nav-menu">   
                     <li className ="nav-links"><AiOutlineHome /> Stays</li>
                     <li className ="nav-links"><TbPlaneInflight /> Flights</li>
-                    <li className ="nav-links"><MdTravelExplore /> Flight + Hotel</li>
+                    <li className ="nav-links"><MdTravelExplore />Flight + Hotel</li>
                     <li className ="nav-links"><AiOutlineCar /> Car rentals</li>
                     <li className ="nav-links"><MdOutlineAttractions /> Attractions</li>
                     <li className ="nav-links"><MdOutlineTaxiAlert /> Airport taxis</li>

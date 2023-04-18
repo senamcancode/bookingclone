@@ -1,0 +1,142 @@
+.signinheader__container{
+    background: #0042a0;
+    border:1px solid  #0042a0;
+    height:7vh; 
+    color: white; 
+}
+
+.signinheader, .signin__container{
+    margin-left: 30vh; 
+    margin-right:30vh; 
+    display:flex; 
+}
+.signinheader {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    font-size: 1.5rem; 
+}
+
+.signin__container{
+    margin-left: 50vh; 
+    margin-right: 50vh;
+    margin-top:5vh; 
+}
+
+.signinheader{
+    justify-content: space-between;
+}
+
+.email__card{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 15vh; 
+    margin-right:15vh; 
+    width: 60vh; 
+    height: 60vh; 
+    padding: 1rem; 
+}
+
+.question__icon{
+    height:1.5rem; 
+    width: 1.5rem; 
+  
+}
+
+.signin__alt__methods, .signin__terms, .signin__rights {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.email__input, .input__button {
+    width: 100%; 
+}
+
+.email__input{
+    height:2rem; 
+    font-size: 1rem; 
+    margin-bottom: 1rem; 
+    outline:none; 
+    border:1 px solid grey; 
+}
+
+.input__button{
+    background: #009fe3;
+    color: white; 
+    font-size: 1rem; 
+	border: none;
+    border-radius:5px; 
+    height:3rem; 
+    margin-bottom: 2rem; 
+}
+
+.input__button:hover{
+    background: #0042a0;
+    cursor:pointer; 
+}
+
+.altsignin__icons{
+    display: flex;
+}
+
+.google__icon,.facebook__icon, .mobile__icon {
+    width: 2rem; 
+    height: 2rem; 
+    margin-top:2rem; 
+    border:1px solid lightgrey; 
+    border-radius: 5px;
+    padding: 1rem; 
+    cursor: pointer; 
+}
+
+.question__icon {
+    cursor:pointer; 
+}
+
+.google__icon:hover,.facebook__icon:hover, .mobile__icon:hover{
+    border:1px solid #009fe3; 
+}
+
+.google__icon {
+    margin-right:3rem; 
+}
+
+.mobile__icon {
+    margin-left:3rem; 
+}
+
+.signin__p {
+    font-size: 1rem; 
+}
+
+#moreways__text{
+    margin-top:2rem; 
+    font-weight: bold; 
+    color: #009fe3; 
+}
+
+.signin__alt__methods{
+    border-bottom: 1px solid lightgrey; ;
+}
+
+.signin__terms{
+    border-bottom: 1px solid lightgrey; 
+}
+
+.terms__text {
+    color: #009fe3; 
+    cursor: pointer; 
+}
+
+.email__signin__input {
+    border-bottom:1px solid lightgrey; 
+}
+
+#moreways__text:hover{
+    cursor: pointer;
+}
