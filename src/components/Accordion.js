@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from "react"; 
-import chevronDown from "./images/chevrondown.png"
-import chevronUp from "./images/chevronup.png"
+// import chevronDown from "./images/chevrondown.png"
+// import chevronUp from "./images/chevronup.png"
 import "./AccordionStyle.css"
 
 
